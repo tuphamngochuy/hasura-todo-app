@@ -1,0 +1,32 @@
+.tasks-container {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: 100px;
+  text-align: left;
+  .td-content-name {
+    padding: 8px;
+    width: 400px;
+  }
+
+  .td-content-done {
+    padding: 8px;
+    width: 250px;
+  }
+
+  .td-button {
+    width: 35px;
+    background-color: rgb(186, 180, 180);
+    button {
+      font-size: 16px;
+      height: 30px;
+      background-color: inherit;
+      border: none;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: rgb(121, 112, 112);
+    }
+  }
+
+}
